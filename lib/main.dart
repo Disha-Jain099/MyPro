@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:whatsapp/Screens/homescreen.dart';
 import 'package:whatsapp/Screens/splash_screen.dart';
 
 void main() {
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: false,
         fontFamily: "Regular",
       ),
-      home: const SplashScreen(),
+      home: const Homescreen(),
     );
   }
 }
